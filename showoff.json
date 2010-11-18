@@ -1,0 +1,13 @@
+{
+  "name": "RubyConf 2010",
+  "description": "Example Presentation",
+  "sections": [
+    {"section":"debugging_ruby_systems"},
+    {"section":"polite_programmer"},
+    {"section":"zomg"},
+    {"section":"making_your_code_better"},
+    {"section":"faye"},
+    {"section":"homerun"},
+    {"section":"refinements"}
+  ]
+}
