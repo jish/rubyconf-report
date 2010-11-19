@@ -2,19 +2,33 @@
 # Ruby 2.0
 ## Matz
 
+!SLIDE transition=scrollUp
+# keyword arguments
+
+!SLIDE transition=scrollUp
+
+    @@@ ruby
+    def step(by: step, to: limit)
+      ...
+    end
+
+    1.step(by: 2, to: 20) do |i|
+      puts i
+    end
+
 !SLIDE center transition=scrollUp
 # refinements
 
 !SLIDE transition=scrollUp
 
     @@@ ruby
-    module Foo
+    class Foo
       def method
         "method"
       end
     end
 
-    Foo.method # => "method"
+    Foo.new.method # => "method"
 
 !SLIDE transition=scrollUp
 
@@ -32,17 +46,10 @@
     @@@ ruby
     module Closure
       using Namespace
-      Foo.method # => "refined method"
+      Foo.new.method # => "refined method"
     end
 
-    Foo.method # => "method"
-
-!SLIDE transition=scrollUp
-
-    @@@ ruby
-    module Whatever
-      include Namespace
-    end
+    Foo.new.method # => "method"
 
 !SLIDE center transition=scrollUp
 # Rite

@@ -1,5 +1,5 @@
 !SLIDE center subsection transition=scrollUp
-# Making Your Code Better
+# Making Your Code Better, the rails 3 way
 ## Yehuda Katz
 
 !SLIDE transition=scrollUp
