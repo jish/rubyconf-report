@@ -12,7 +12,7 @@
     {"section":"refinements"},
     {"section":"mustache"},
     {"section":"duplication_duplication"},
-    {"section":"sytycc"},
-    {"section":"art"}
+    {"section":"sytycc"}
+    // {"section":"art"}
   ]
 }

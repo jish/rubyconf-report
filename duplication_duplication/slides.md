@@ -40,4 +40,7 @@
     end
 
 !SLIDE transition=scrollUp
+# every piece of knowledge should have a single unambiguous authoratative representation
+
+!SLIDE transition=scrollUp
 # every time you reduce duplication you increase dependency
